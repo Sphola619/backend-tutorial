@@ -5,8 +5,16 @@
   "license": "ISC",
   "author": "Sipho",
   "type": "module",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.3",
+    "nodemon": "^3.1.14"
   }
 }
